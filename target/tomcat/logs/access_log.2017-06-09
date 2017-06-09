@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [09/Jun/2017:08:06:28 +0800] "GET /HelloWeb HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [09/Jun/2017:08:06:28 +0800] "GET /HelloWeb/ HTTP/1.1" 200 53 http-bio-8080-exec-3 35
+0:0:0:0:0:0:0:1 - - [09/Jun/2017:08:06:35 +0800] "GET /HelloWeb/hello HTTP/1.1" 200 295 http-bio-8080-exec-4 75
+0:0:0:0:0:0:0:1 - - [09/Jun/2017:08:06:39 +0800] "GET /HelloWeb/world HTTP/1.1" 200 295 http-bio-8080-exec-5 14
+0:0:0:0:0:0:0:1 - - [09/Jun/2017:08:07:22 +0800] "GET /HelloWeb/returnString HTTP/1.1" 200 30 http-bio-8080-exec-1 45
