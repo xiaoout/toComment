@@ -1,4 +1,4 @@
 com\xiaoout\springmvc\configuration\HelloWorldInitializer.class
-com\xiaoout\springmvc\HelloWorld.class
 com\xiaoout\springmvc\controller\HelloWorldController.class
+com\xiaoout\springmvc\model\Student.class
 com\xiaoout\springmvc\configuration\HelloWorldConfiguration.class
