@@ -49,7 +49,7 @@ public class HelloWorldController {
     public String saveRegistration(@Valid Student student, BindingResult result, ModelMap model){
 
         if(result.hasErrors()) {
-            return "fail";
+            return "enroll";
         }
 
         model.addAttribute("success", "Dear "+ student.getFirstName()+" , your Registration completed successfully");
