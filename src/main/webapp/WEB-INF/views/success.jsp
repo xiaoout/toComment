@@ -12,6 +12,11 @@
 		Confirmation message : ${success}
 		<br>
 		We have also sent you a confirmation mail to your email address : ${student.email}.
+		${form.age}
+
+
+                 是否订阅新闻
+                 ${receivePaper}
 	</div>
 </body>
 </html>
