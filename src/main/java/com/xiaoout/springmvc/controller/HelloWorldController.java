@@ -24,11 +24,11 @@ public class HelloWorldController {
 //        return "welcome";
 //    }
 //
-//    @RequestMapping(value = "/helloagain", method = RequestMethod.GET)
-//    public String sayHelloAgain(ModelMap model) {
-//        model.addAttribute("greeting", "Hello World Again, from Spring 4 MVC");
-//        return "welcome";
-//    }
+    @RequestMapping(value = "/helloagain", method = RequestMethod.GET)
+    public String sayHelloAgain(ModelMap model) {
+        model.addAttribute("greeting", "Hello World Again, from Spring 4 MVC");
+        return "welcome";
+    }
 
     /*
 	 * This method will serve as default GET handler.
@@ -49,7 +49,7 @@ public class HelloWorldController {
     public String saveRegistration(@Valid Student student, BindingResult result, ModelMap model){
 
         if(result.hasErrors()) {
-            return "fail";
+            return "enroll";
         }
 
         model.addAttribute("success", "Dear "+ student.getFirstName()+" , your Registration completed successfully");
